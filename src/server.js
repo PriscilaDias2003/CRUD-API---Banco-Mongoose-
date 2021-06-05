@@ -16,7 +16,7 @@ app.use((req, res, next) => {
 })
 
 //Conexão com o banco de dados Mongodb
-mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack-hl1li.mongodb.net/omnistack9?retryWrites=true&w=majority', {
+mongoose.connect('Colocar a URL do seu banco Mongoose aqui', {
     useNewUrlParser: true,
     useUnifiedTopology : true
 
